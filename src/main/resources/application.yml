@@ -4,11 +4,11 @@ spring:
   application:
     name: "loans"
   profiles:
-    active: "prod"
-  datasource:
-    url: jdbc:mysql://localhost:3307/loansdb
-    username: root
-    password: root
+    active: "default"
+#  datasource:
+#    url: jdbc:mysql://localhost:3307/loansdb
+#    username: root
+#    password: root
   jpa:
     show-sql: true
   sql:
